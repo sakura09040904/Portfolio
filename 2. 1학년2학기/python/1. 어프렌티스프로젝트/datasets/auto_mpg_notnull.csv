@@ -2,8 +2,8 @@ mpg,cylinders,displacement,horsepower,weight,acceration,model_year,origin,car_na
 18,8,307,130,3504,12,70,1,chevrolet chevelle malibu
 15,8,350,165,3693,11.5,70,1,buick skylark 320
 18,8,318,150,3436,11,70,1,plymouth satellite
-16,8,304,150,,12,70,1,amc rebel sst
-17,8,302,140,,10.5,70,1,ford torino
+16,8,304,150,3433,12,70,1,amc rebel sst
+17,8,302,140,3449,10.5,70,1,ford torino
 15,8,429,198,4341,10,70,1,ford galaxie 500
 14,8,454,220,4354,9,70,1,chevrolet impala
 14,8,440,215,4312,8.5,70,1,plymouth fury iii
@@ -33,7 +33,7 @@ mpg,cylinders,displacement,horsepower,weight,acceration,model_year,origin,car_na
 25,4,113,95,2228,14,71,3,toyota corona
 25,4,98,95,2046,19,71,1,ford pinto
 19,6,232,100,2634,13,71,1,amc gremlin
-16,6,225,105,,15.5,71,1,plymouth satellite custom
+16,6,225,105,3439,15.5,71,1,plymouth satellite custom
 17,6,250,100,3329,15.5,71,1,chevrolet chevelle malibu
 19,6,250,88,3302,15.5,71,1,ford torino 500
 18,6,232,100,3288,15.5,71,1,amc matador
@@ -85,8 +85,8 @@ mpg,cylinders,displacement,horsepower,weight,acceration,model_year,origin,car_na
 28,4,98,80,2164,15,72,1,dodge colt (sw)
 27,4,97,88,2100,16.5,72,3,toyota corolla 1600 (sw)
 13,8,350,175,4100,13,73,1,buick century 350
-14,8,304,150,,11.5,73,1,amc matador
-13,8,350,145,,13,73,1,chevrolet malibu
+14,8,304,150,3672,11.5,73,1,amc matador
+13,8,350,145,3988,13,73,1,chevrolet malibu
 14,8,302,137,4042,14.5,73,1,ford gran torino
 15,8,318,150,3777,12.5,73,1,dodge coronet custom
 12,8,429,198,4952,11.5,73,1,mercury marquis brougham
@@ -99,7 +99,7 @@ mpg,cylinders,displacement,horsepower,weight,acceration,model_year,origin,car_na
 18,6,225,105,3121,16.5,73,1,plymouth valiant
 16,6,250,100,3278,18,73,1,chevrolet nova custom
 18,6,232,100,2945,16,73,1,amc hornet
-18,6,250,88,,16.5,73,1,ford maverick
+18,6,250,88,3021,16.5,73,1,ford maverick
 23,6,198,95,2904,16,73,1,plymouth duster
 26,4,97,46,1950,21,73,2,volkswagen super beetle
 11,8,400,150,4997,14,73,1,chevrolet impala
