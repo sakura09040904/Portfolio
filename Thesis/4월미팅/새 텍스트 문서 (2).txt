@@ -1,0 +1,19 @@
+1. 학습된 가중치 다운로드 후 객체 인식
+ 1) python .\detect.py --weight yolov5s.pt --source 0 (웹캠사용)
+ 2) python .\detect.py --weight yolov5s.pt --source 주소(https://youtu.be/LNwODJXcvt4)  (동영상(유튜브링크))
+
+ * 명령어 
+- python .\detect.py: Python을 사용하여 detect.py 스크립트를 실행
+- 
+
+2. 특정 데이터셋을 학습시켜 모델을 훈련 
+ python .\train.py --img 416 --batch 2 --epochs 10 --data .\data\FruitDataset\data.yaml --cfg .\models\yolov5s.yaml --weights yolov5s.pt --name fruit_yolov5s_results
+
+ * 명령어 
+--img 416: 훈련 과정에서 이미지 크기를 416x416 픽셀로 설정
+--batch 2: 배치 크기를 2로 지정
+--epochs: 10 10번 반복
+--data .\data\FruitDataset\data.yaml: 데이터셋 구성을 포함한 YAML 파일. 훈련 및 검증 데이터셋의 경로와 클래스 이름이 포함
+--cfg .\models\yolov5s.yaml: 모델의 구성을 지정하는 YAML 파일. YOLOv5s 모델 구성을 사용
+--weights yolov5s_fruit.pt: 훈련을 시작하기 전에 모델에 사용할 가중치 파일을 지정. (사전 훈련 가중치)
+--name fruit_yolov5s_results: 훈련 결과를 저장할 때 사용할 이름을 지정
