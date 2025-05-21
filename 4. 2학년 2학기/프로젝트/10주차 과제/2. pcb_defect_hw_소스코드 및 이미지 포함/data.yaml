@@ -1,0 +1,9 @@
+nc: 1
+names:
+  0: t1
+
+
+test: C:/ai_dev/jupyter/pcb_defect_hw/dataset/test/
+train: C:/ai_dev/jupyter/pcb_defect_hw/dataset/train/
+val: C:/ai_dev/jupyter/pcb_defect_hw/dataset/valid/
+
