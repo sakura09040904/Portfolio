@@ -1,0 +1,15 @@
+nc: 7
+names:
+  0: e1
+  1: e2
+  2: e3
+  3: e4
+  4: e5
+  5: e6
+  6: e7
+
+
+test: C:/practice/dataset/test/
+train: C:/practice/dataset/train/
+val: C:/practice/dataset/val/
+
